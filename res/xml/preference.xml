@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ListPreference
+        android:key="pref_class"
+        android:title="@string/pref_class"
+        android:dialogTitle="@string/pref_class"
+        android:entries="@array/pref_class_entries"
+        android:entryValues="@array/pref_class_values" />
+</PreferenceScreen>
